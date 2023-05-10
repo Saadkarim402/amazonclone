@@ -33,3 +33,29 @@
     border:none;
     width:100%;
 }
+
+.headernav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headeroption{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.headerline1{
+    font-size: 10px;
+}
+.headerline2{
+    font-size: 13px;
+    font-weight: 800;
+}
+.headeroptionbasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
