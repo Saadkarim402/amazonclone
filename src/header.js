@@ -1,14 +1,17 @@
 import React from 'react'
 import './header.css'
+import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
   return (
     <div className='header'>
         <img className='headerlogo' src='https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg'/>
+        
         <div className='headersearch'>
             <input 
                className='headersearchinput'
                type='text'/>
+            <SearchIcon className='headersearchicon'/>
         </div>
 
         <div className='headernav'>
